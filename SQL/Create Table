@@ -1,0 +1,13 @@
+--DROP TABLE IF EXISTS test
+
+/*CREATE TABLE [test]
+(ID varchar(200),
+NAME varchar(200),
+Job varchar(200),
+Age varchar(200))*/;
+
+
+
+DELETE  FROM test WHERE NAME like '%p%'
+
+SELECT * FROM [guzman-sql-db].[dbo].test
