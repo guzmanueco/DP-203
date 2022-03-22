@@ -7,6 +7,7 @@
 -- This has to be run in the master database
 CREATE LOGIN user_load WITH PASSWORD = 'Azure@123';
 
+-- This is done back in the database we are working with
 CREATE USER user_load FOR LOGIN user_load;
 GRANT ADMINISTER DATABASE BULK OPERATIONS TO user_load;
 GRANT CREATE TABLE TO user_load;
