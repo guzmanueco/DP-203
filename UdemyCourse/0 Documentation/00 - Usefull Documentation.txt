@@ -1,0 +1,11 @@
+SYNAPSE
+
+# Design tables using Synapse SQL in Azure Synapse Analytics
+https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-overview
+
+# Heap tables
+https://www.mssqltips.com/sqlservertutorial/9134/sql-server-heap/#:~:text=A%20heap%20table%20is%20a,stored%20in%20any%20particular%20order.
+
+# Staging tables
+https://www.mssqltips.com/sqlservertip/6041/sql-server-staging-table-vs-temp-table/
+
