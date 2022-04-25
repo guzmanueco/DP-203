@@ -20,7 +20,10 @@ FROM Customer_view
 
 CREATE VIEW Product_view 
 AS
-SELECT prod.[ProductID],prod.[Name] as ProductName,prod.[SafetyStockLevel],model.[ProductModelID],model.[Name] as ProductModelName,category.[ProductSubcategoryID],category.[Name] AS ProductSubCategoryName
+SELECT prod.[ProductID],prod.[Name] as ProductName,
+prod.[SafetyStockLevel],model.[ProductModelID],
+model.[Name] as ProductModelName,
+category.[ProductSubcategoryID],category.[Name] AS ProductSubCategoryName
 FROM [Production].[Product] prod
 LEFT JOIN [Production].[ProductModel] model ON prod.[ProductModelID] = model.[ProductModelID]
 LEFT JOIN [Production].[ProductSubcategory] category ON prod.[ProductSubcategoryID]=category.[ProductSubcategoryID]
