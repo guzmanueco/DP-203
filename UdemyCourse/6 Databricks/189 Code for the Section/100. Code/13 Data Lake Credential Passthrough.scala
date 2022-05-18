@@ -1,3 +1,5 @@
+// Using Azure Active Directory
+
 // Create a new data lake storage account
 // Upload a file and give the required permissions
 // We will need to create a new cluster with the credential passthrough feature

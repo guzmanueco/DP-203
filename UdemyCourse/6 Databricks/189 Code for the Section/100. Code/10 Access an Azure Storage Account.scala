@@ -2,6 +2,8 @@
 
 // We can now set the configuration and access the key from the key vault
 
+// Here we input our datalake name, our databricks scope name and our secret stored in key vault name
+
 spark.conf.set(
     "fs.azure.account.key.appdatalake7000.dfs.core.windows.net",
     dbutils.secrets.get(scope="data-lake-key",key="datalakekey"))
